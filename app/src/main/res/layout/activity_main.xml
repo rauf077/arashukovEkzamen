@@ -22,40 +22,61 @@
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="387dp"
+        android:layout_height="61dp"
         android:text="Жизнь и творчество Владимира Семеновича Высоцкого."
+        android:textSize="22dp"
+        android:textColor="@color/black"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/imageView"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.571" />
 
     <Button
         android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="142dp"
+        android:layout_height="55dp"
         android:backgroundTint="#BF7930"
         android:onClick="biog"
         android:text="Биография"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toTopOf="@+id/button2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView"
-        app:layout_constraintVertical_bias="0.611"
-        app:strokeColor="#7E0808" />
-
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:backgroundTint="#BF7930"
-        android:text="Творчество"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView"
-        app:layout_constraintVertical_bias="0.304" />
+        app:layout_constraintVertical_bias="0.745"
+        app:strokeColor="#7E0808" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="139dp"
+        android:layout_height="55dp"
+        android:backgroundTint="#BF7930"
+        android:text="Творчество"
+        android:textColor="@color/black"
+        android:onClick="clickOnNextTv"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.298" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="135dp"
+        android:layout_height="54dp"
+        android:backgroundTint="#BF7930"
+        android:text="ФАКТЫ"
+        android:textColor="@color/black"
+        android:onClick="clickOnNextFact"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.498" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

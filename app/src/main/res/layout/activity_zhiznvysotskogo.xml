@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -7,17 +10,69 @@
     android:background="#A65500"
     tools:context=".zhiznvysotskogo">
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="379dp"
-        android:layout_height="579dp"
-        android:text=""
-"
-        android:textStyle="bold"
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.484"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.043" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="208dp"
+            android:layout_height="83dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.047"
+            app:srcCompat="@drawable/vysot" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="182dp"
+            android:layout_height="28dp"
+            android:text="БИОГРАФИЯ ВЫСОЦКОГО"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.002" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="407dp"
+                android:layout_height="598dp"
+                android:text="25 января 1938 года в Москве появился на свет прославленный поэт, певец, музыкант и актер советского театра и кино Владимир Высоцкий. Биография Владимира Семеновича заслуживает отдельного внимания не только поклонников его таланта, но и ценителей современного искусства. День его смерти — 25 июля — вся страна отмечает как День памяти.
+Владимир Высоцкий родился в московском роддоме №8. Его мать Нина Высоцкая рассказывала, что рыжеватый и с синими глазами малыш появился на свет рано утром. Дать новорожденному сыну имя Владимир настоял его отец, военный связист Семен Владимирович.
+
+Сразу после выписки из роддома мама привезла Владимира в дом №26 на 1-й Мещанской улице, ныне Проспект Мира. Там они жили вплоть до развода родителей.
+В биографии юного Владимира Высоцкого был период жизни в послевоенной Германии. В возрасте девяти лет он вместе с отцом перебрался в городок Эберсвальде, где Семен Владимирович проходил военную службу как офицер советской армии.
+
+Новый этап жизни Высоцкого начался после возвращения в Москву в 1949 году, когда он переехал в дом №15 в Большом Каретном переулке. Там он увлекся гитарой, стал сочинять стихи и пошел в актерский кружок.
+День смерти Владимира Высоцкого отмечается как день его памяти. Его не стало 25 июля 1980 года. В те дни столица СССР принимала летние Олимпийские игры, повсюду была атмосфера праздника. На этом фоне вести о смерти поэта прогремели как гром среди ясного неба.
+
+Из-за неоднозначного отношения властей к Высоцкому факт его кончины старались особо не афишировать. Но к Театру на Таганке пришли десятки тысяч человек, чтобы проститься с любимым артистом. Несмотря на то, что назначенный на 27 июля спектакль «Гамлет» был отменен, никто из зрителей не сдал билеты в кассу.
+
+Ежегодно в день памяти — 25 июля — на Ваганьковском кладбище у могилы артиста собираются тысячи поклонников, чтобы отдать дань уважения."
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.879" />
+        </ScrollView>
+    </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>

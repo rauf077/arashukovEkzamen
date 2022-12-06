@@ -13,6 +13,20 @@
         android:theme="@style/Theme.JiznITvorchestvoVysotskogo"
         tools:targetApi="31">
         <activity
+            android:name=".factvysot"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".tvorvysot"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".zhuznnviston"
             android:exported="false">
             <meta-data

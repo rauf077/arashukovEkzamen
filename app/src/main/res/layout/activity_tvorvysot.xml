@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A65500"
+    android:backgroundTint="#A65500"
+    tools:context=".tvorvysot">
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="352dp"
+        android:layout_height="452dp"
+        android:text="Высоцкий участвовал и в других постановках московского Театра на Таганке. Например, исполнил роль Хлопуши в спектакле «Пугачев», играл на гитаре в поэтическом представлении «Антимиры», написал песню для постановки «Павшие и живые» и сыграл купца Ермолая Лопахина в спектакле по пьесе Чехова «Вишневый сад». Он также участвовал в постановках «Послушайте!» и «Добрый человек из Сезуана».
+
+Биография Владимира Высоцкого как актера кино началась с маленькой роли в картине «Сверстницы», которая вышла на экраны в 1959 году. За двадцать с небольшим лет он отметился ролями во множестве фильмов. Его можно увидеть в эпизодах кинолент «Вертикаль», «Наш дом» и многих других. Фильм «Интервенция», где Высоцкий сыграл главную роль, вышел на экраны только в 1987 году.
+Особняком стоит его работа в фильме «Место встречи изменить нельзя». В 1987 году за созданный им на экране образ милиционера Глеба Жеглова он стал лауреатом Государственной премии СССР.
+
+В то же время Высоцкий прославился как поэт-песенник. Многие из его произведений прозвучали в кино и телефильмах, где он сам играл. Его стихотворное творчество называют не иначе как «новая энциклопедия русской жизни»."
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/imageView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.886" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="397dp"
+        android:layout_height="188dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.98"
+        app:srcCompat="@drawable/vyphoto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

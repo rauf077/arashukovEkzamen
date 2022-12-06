@@ -17,4 +17,13 @@ class MainActivity : AppCompatActivity() {
         startActivity(intent)
 
     }
+
+    fun clickOnNextTv(view: View) {
+        val intent: Intent = Intent(this@MainActivity, zhuznnviston::class.java)
+        startActivity(intent)
+    }
+    fun clickOnNextFact(view: View) {
+        val intent: Intent = Intent(this@MainActivity, factvysot::class.java)
+        startActivity(intent)
+    }
 }

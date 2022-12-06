@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A65500"
+    tools:context=".factvysot">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="350dp"
+        android:layout_height="61dp"
+        android:text="Первый сборник стихов Высоцкого вышел спустя почти год после смерти поэта, в 1981 году."
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.312"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.123" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="354dp"
+        android:layout_height="70dp"
+        android:text="Только через шесть лет после смерти Владимиру Высоцкому присудили звание Заслуженного артиста РСФСР."
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.368"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        app:layout_constraintVertical_bias="0.015" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="339dp"
+        android:layout_height="112dp"
+        android:text="Первый музей, посвященный творчеству поэта и актера, распахнул свои двери для посетителей в 1992 году. Он находится в Москве и носит имя «Дом Высоцкого на Таганке». В 1996 году директором музея стал его сын Никита, который занимает эту должность до сих пор."
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.263"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8"
+        app:layout_constraintVertical_bias="0.025" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="345dp"
+        android:layout_height="121dp"
+        android:text="Владимир Семенович был трижды женат. В первом браке с актрисой Изольдой Жуковой детей у них не было. Во второй раз он женился на актрисе Людмиле Абрамовой, у них родились двое сыновей – Аркадий и Никита. Третья жена Владимира – актриса Марина Влади."
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.318"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9"
+        app:layout_constraintVertical_bias="0.056" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="265dp"
+        android:layout_height="20dp"
+        android:text="ИНТЕРЕСНЫЕ ФАКТЫ О ВЫСОЦКОМ"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022" />
+</androidx.constraintlayout.widget.ConstraintLayout>
